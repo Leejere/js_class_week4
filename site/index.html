@@ -28,15 +28,14 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-12 col-l-9 col-xl-9">
+                <div class="col-sm-12 col-l-6 col-xl-6">
                     <div class="map-container">
                         <div id="stop-map"></div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-l-3 col-xl-3">
-                    <h2>Select a School</h2>
-                    <div id="checkbox-set">
-                        <p><label><input type="checkbox" class="route-checkbox" value="21">Route 21</label></p>
+                <div class="col-sm-6 col-l-3 col-xl-3">
+                    <h2>Select by Route</h2>
+                    <div class="checkbox-set">
                         <p><label><input type="checkbox" class="route-checkbox" value="21">Route 21</label></p>
                         <p><label><input type="checkbox" class="route-checkbox" value="42">Route 42</label></p>
                         <p><label><input type="checkbox" class="route-checkbox" value="31">Route 31</label></p>
@@ -58,6 +57,15 @@
                         <p><label><input type="checkbox" class="route-checkbox" value="36">Route 36</label></p>
                         <p><label><input type="checkbox" class="route-checkbox" value="10">Route 10</label></p>
                         <p><label><input type="checkbox" class="route-checkbox" value="MFO">Route MFO</label></p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-l-3 col-xl-3">
+                    <h2>Select by Name</h2>
+                    <div class="input-box">
+                        <input type="text" id="stop-name-input" placeholder="Enter Stop Here">
+                    </div>
+                    <div>
+                        <ul id="stop-list"></ul>
                     </div>
                 </div>
             </div>
